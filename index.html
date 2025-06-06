@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElbertDigi - Produk Digital Praktis</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    header nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    header nav ul li {
+      margin-left: 20px;
+    }
+
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .hero {
+      background-color: #444;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    .cta-button {
+      background-color: #ff6600;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .cta-button:hover {
+      background-color: #e65c00;
+    }
+
+    .produk {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .produk h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .produk-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .produk-item {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .produk-item h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .produk-item p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ff6600;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .produk-list {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .produk-item {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">ElbertDigi</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#produk">Produk</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Selamat datang di ElbertDigi</h1>
+    <p>Temukan produk digital praktis untuk meningkatkan produktivitas Anda.</p>
+    <a href="#produk" class="cta-button">Lihat Produk</a>
+  </section>
+
+  <section id="produk" class="produk">
+    <h2>Produk Unggulan</h2>
+    <div class="produk-list">
+
+      <div class="produk-item">
+        <h3>The Value of One Minute</h3>
+        <p>E-book untuk belajar menghargai waktu.<br>Harga: IDR 30.000</p>
+        <a href="https://lynk.id/elbertwu" class="cta-button" target="_blank">Beli Sekarang</a>
+      </div>
+
+      <div class="produk-item">
+        <h3>Cuan dari Rumah</h3>
+        <p>Strategi jualan produk hasil milyaran.<br>Harga: IDR 149.000</p>
+        <a href="https://lynk.id/elbertwu" class="cta-button" target="_blank">Beli Sekarang</a>
+      </div>
+
+      <div class="produk-item">
+        <h3>Akademi Creator Lifetime Access</h3>
+        <p>Akses seumur hidup ke kursus kreator.<br>Harga: IDR 37.970.000</p>
+        <a href="https://lynk.id/elbertwu" class="cta-button" target="_blank">Beli Sekarang</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="kontak">
+    <p>Hubungi kami di <a href="https://wa.me/6281362097651" target="_blank">WhatsApp: 0813-6209-7651</a></p>
+    <p>Email: <a href="mailto:elbert@elbertdigi.com">elbert@elbertdigi.com</a></p>
+    <p>Ikuti kami di <a href="https://www.instagram.com/elbertdigi" target="_blank">Instagram</a></p>
+  </footer>
+
+</body>
+</html>
